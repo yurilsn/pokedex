@@ -1,13 +1,13 @@
-@use './sass/reset.scss';
-@use './sass/variables.scss';
-@use './sass/rem-calc.scss';
+@import './sass/reset.scss';
+@import './sass/variables.scss';
+@import './sass/rem-calc.scss';
 
 html{
     font-family: 'Roboto', sans-serif;
     background: var(--primary-color);
 }
 main{
-     max-width: rem-calc(600);
+     width: rem-calc(600);
      margin: 0 auto;
      box-sizing: border-box;
 }
